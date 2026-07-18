@@ -260,6 +260,7 @@ textarea:focus-visible {
   position: relative;
   min-height: 620px;
   padding-top: 140px;
+  margin-bottom: 50px;
 }
 
 .hero__copy {
