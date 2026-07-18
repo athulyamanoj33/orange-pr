@@ -1,7 +1,5 @@
-// ===================== ORANGE PR — interactions =====================
-
 document.addEventListener('DOMContentLoaded', () => {
-  // Mobile nav toggle
+  
   const navToggle = document.querySelector('.navbar__grid');
   const navLinks = document.querySelector('.navbar__links');
 
@@ -11,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Hero slider dots (visual only — cycles active state)
+  
   const dots = document.querySelectorAll('.hero .dot');
   if (dots.length) {
     dots.forEach((dot, i) => {
@@ -22,15 +20,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Testimonial slider arrows (visual only — no data cycling wired up)
+ 
   const testimonialArrows = document.querySelectorAll('.testimonials .slider-arrow');
   testimonialArrows.forEach(btn => {
     btn.addEventListener('click', () => {
-      // Placeholder for future testimonial cycling logic
+      
     });
   });
 
-  // Simple contact form UX: prevent default submit (no backend wired up)
   const contactForm = document.querySelector('.contact__form-card form');
   if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
@@ -40,7 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Newsletter form
   const newsletterForm = document.querySelector('.newsletter__form');
   if (newsletterForm) {
     newsletterForm.addEventListener('submit', (e) => {
